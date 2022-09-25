@@ -1,0 +1,183 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color:lightslategray;
+    font-size: 16px;
+    color: white;
+    margin:0;
+    margin:0;
+
+}
+
+.header {
+    width: 100%;
+    height: 3.75rem;
+    background-color:black;
+    position:relative;
+    
+
+
+}
+
+.navigation {
+    float: left;
+    height: 100%;
+    margin-top: 1.25rem;
+
+
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float:left;
+    padding: 0rem 1.25rem;
+
+}
+
+.navigation a li {
+    display: inline-block;
+    height: 100%;
+    text-decoration: underline;
+    color:white;
+}
+
+.main-container {
+    background-image: url('https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZXhlcmNpc2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    width: 100%;
+    margin: 0rem;
+    padding-top: 1.25rem;
+    display:flex;
+}
+
+.main-text {
+    margin:auto;
+    background-color: black;
+    opacity: 0.8;
+    color:white;
+    width:100%;
+    text-align: center;
+}
+.body-text {
+    padding: 1.25rem 3.125rem 1.25rem 0.625rem;
+    height: 12.5rem;
+    width: 100%;
+    background-color: olive;
+}
+
+
+.text h2{
+color: white;
+}
+
+.text p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+
+
+.photo {
+    display: flex;
+    flex-wrap:wrap; 
+}
+
+.photo img {
+    height: 12.5em;
+    width: 24%;
+    padding: 0.3125em;
+    margin: auto;
+}
+
+.recomendation {
+    height: 12.5rem;
+    width:100%;
+    background-color:olive ;
+    padding:1.25em 3.125em 1.25em 0.625em;
+}
+
+
+
+.photos {
+    display: flex;
+    flex-wrap:wrap;
+    padding-top: 0.625em;
+}
+
+.photos img {
+    height: 18.75em;
+    width: 30%;
+    padding: 0.3125em;
+    margin: auto;
+}
+    
+.call-text {
+    margin: 0.625em;
+   
+}
+
+.call-text img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.call-text h1 {
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+	.photo img{
+		width: 23%;
+	}
+
+    .photos img {
+        width:29%
+    }
+    .call-text img {
+        width:49%
+    }
+}
+
+@media (max-width: 992px) {
+	.photo img{
+		width: 31.33%;
+	}
+    .photos img {
+        width:37.33%
+    }
+    .call-text img {
+        width: 57%;
+    }
+}
+
+@media (max-width: 768px) { 
+	.photo img{
+		width: 48%;
+	}
+    .photos img{
+		width: 54%;
+	}
+    .call-text img {
+        width: 74%;
+    }
+}
+
+@media (max-width: 576px) {
+	.photo img{
+		width: 100%;
+	}
+    .photos img{
+		width: 100%;
+	}
+    .call-text img {
+        width:100%;
+    }
+}
+
+
